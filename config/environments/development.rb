@@ -73,4 +73,5 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  config.hosts << "hskowron-urban-xylophone-gjq77v9wvxpcv65q-3000.preview.app.github.dev"
 end
