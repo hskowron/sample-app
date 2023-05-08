@@ -33,6 +33,10 @@ class User < ApplicationRecord
 
   public
 
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
   end
