@@ -73,7 +73,6 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
-  config.hosts << "hskowron-urban-xylophone-gjq77v9wvxpcv65q-3000.preview.app.github.dev"
 
   host = "localhost:3000"
   
@@ -82,4 +81,6 @@ Rails.application.configure do
   
   # Use this if developing on localhost.
   config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+  
+  config.hosts << "3000-gitpodsampl-templaterub-xwdfftjvbqv.ws-eu96b.gitpod.io"
 end

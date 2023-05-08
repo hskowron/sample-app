@@ -21,6 +21,9 @@ ActiveRecord::Schema.define(version: 2023_05_05_111229) do
     t.index ["user_id"], name: "index_microposts_on_user_id"
   end
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
