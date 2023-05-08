@@ -22,7 +22,7 @@ gem "net-http"
 gem "htmlbeautifier"
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
+  gem "sqlite3"
   gem "byebug", "11.1.3", platforms: %i[mri mingw x64_mingw]
 end
 
